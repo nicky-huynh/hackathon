@@ -1,0 +1,79 @@
+/* src/components/Header.css */
+.header {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(247, 206, 70);
+    font-family: 'Roboto', sans-serif;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick the header to the top of the viewport */
+    z-index: 1000; /* Ensure the header is above other elements */
+  
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-balance {
+    color: rgb(247, 206, 70);
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .header-logo {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .header-logo {
+    text-decoration: none;
+    color: rgb(247, 206, 70);
+    font-size: 1.4em;
+    font-weight: 400;
+    transition: color 0.3s ease;
+  }
+  
+  .header-logo:hover {
+    color: #007bff; /* Change to your desired hover color */
+    text-decoration: none;
+  }
+  
+  .header-logo:active {
+    color: #0056b3; /* Change to your desired active color */
+    text-decoration: none;
+  }
+  
+  .header-logo:visited {
+    color: #333; /* Change to your desired visited color */
+    color: rgb(247, 206, 70);
+    text-decoration: none;
+  }
+
+  .cart-icon {
+    width: 36px; /* Adjust the size as needed */
+    height: 36px;
+    filter: invert(83%) sepia(95%) saturate(338%) hue-rotate(1deg) brightness(90%) contrast(90%);
+  }
+
+  .cart-count {
+    color: #fff;
+    margin-left: -3.8em;
+    margin-top: -2.5em;
+    margin-right: 0.6em;
+    min-width: 2em;
+    text-align: right;
+  }
+  

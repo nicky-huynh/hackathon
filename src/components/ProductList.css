@@ -1,0 +1,20 @@
+/* src/components/ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #333; */
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
+  .product-list .product-card {
+    flex: 1 1 calc(50% - 2rem);
+    box-sizing: border-box;
+    margin: 1rem;
+    max-width: calc(50% - 2rem);
+    min-width: 250px; /* Set a minimum width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
